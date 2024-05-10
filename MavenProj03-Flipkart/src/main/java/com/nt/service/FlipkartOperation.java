@@ -23,9 +23,15 @@ public class FlipkartOperation {
 		return x / y;
 	}
 	
+
 	public String reverse(String name) {
 		StringBuffer sb = new StringBuffer(name);
 		return sb.reverse().toString();
+	}
+		
+	public int check(String x) {
+		return 0;
+		
 	}
 
 	public static void main(String[] args) {
