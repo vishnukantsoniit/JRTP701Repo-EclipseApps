@@ -30,6 +30,6 @@ public class FlipkartOperation {
 		System.out.println("sum is :" + fo.sum(10, 20));
 		System.out.println("sum is :" + fo.sum(10, 20, 30));
 		System.out.println("mul is :" + fo.sum(10, 20));
-		System.out.println("div is :" + fo.sum(10, 20));
+		System.out.println("div is the :" + fo.sum(10, 20));
 	}
 }
