@@ -1,7 +1,5 @@
 package com.nt.service;
 
-import com.nt.util.StringUtil;
-
 /**
  * Hello world!
  *
@@ -23,6 +21,11 @@ public class FlipkartOperation {
 	
 	public int div(int x, int y) {
 		return x / y;
+	}
+	
+	public String reverse(String name) {
+		StringBuffer sb = new StringBuffer(name);
+		return sb.reverse().toString();
 	}
 
 	public static void main(String[] args) {
